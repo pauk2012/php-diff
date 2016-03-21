@@ -1,4 +1,8 @@
 <?php
+
+namespace pauko\Diff\Renderer\Html;
+use pauko\Diff\Renderer\AbstractRenderer;
+
 /**
  * Base renderer for rendering HTML based diffs for PHP DiffLib.
  *
@@ -40,9 +44,9 @@
  * @link http://github.com/chrisboulton/php-diff
  */
 
-require_once dirname(__FILE__).'/../Abstract.php';
 
-class Diff_Renderer_Html_Array extends Diff_Renderer_Abstract
+
+class ArrayRendrerer extends AbstractRenderer:
 {
 	/**
 	 * @var array Array of the default options that apply to this renderer.
