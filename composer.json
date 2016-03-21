@@ -14,8 +14,8 @@
         }
     ],
 	"autoload": {
-		"psr-0": {
-		   "pauko\\Diff\\": "lib/"
+		"psr-4": {
+		   "pauko\\Diff\\": "src/"
 		}
 	}
 }
