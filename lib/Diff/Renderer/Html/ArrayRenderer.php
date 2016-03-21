@@ -46,7 +46,7 @@ use pauko\Diff\Renderer\AbstractRenderer;
 
 
 
-class ArrayRendrerer extends AbstractRenderer:
+class ArrayRenderer extends AbstractRenderer
 {
 	/**
 	 * @var array Array of the default options that apply to this renderer.
